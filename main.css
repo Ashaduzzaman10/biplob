@@ -1,0 +1,42 @@
+body {
+     padding: 0;
+     margin: 0;
+     font-family: "poppins", sans-serif;
+     min-height: 100vh;
+     background-color: #ffd54f;
+     display: flex;
+     flex-dirwction: column;
+     align-items: center;
+     justify-content: center;
+     color: #333;
+
+}
+
+h1 {
+     font-weight: normal;
+     fonr-size: 4rem;
+     margin-top: 5ren;
+}
+
+.countdown {
+     display: flex;
+     flex-wrap: wrap;
+     align-items: center;
+     justify-content: center;
+     margin: 1rem 2rem;
+}
+
+.big-text {
+     font-weight: bold;
+     font-size: 6rem;
+     line-height: 1;
+     margin: 0 2rem;
+}
+
+.counter-el {
+     text-align: center;
+}
+
+.counter-el span {
+     font-size: 1.4rem;
+}
